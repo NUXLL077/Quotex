@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quotex Trading - Join Now</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Inter', sans-serif; }
+    body { background: #0f172a; color: white; display: flex; flex-direction: column; align-items: center; padding: 2rem; }
+    .container { max-width: 600px; text-align: center; }
+    .hero { margin-bottom: 2rem; }
+    .hero h1 { font-size: 2.5rem; font-weight: 800; color: #38bdf8; margin-bottom: 1rem; }
+    .hero p { font-size: 1rem; color: #cbd5e1; margin-bottom: 1rem; }
+    .features { text-align: left; margin: 2rem 0; }
+    .features p { margin: 0.5rem 0; }
+    .cta-button {
+      background: #22c55e;
+      color: white;
+      padding: 1rem 2rem;
+      border: none;
+      border-radius: 8px;
+      font-size: 1.2rem;
+      font-weight: 600;
+      cursor: pointer;
+      margin: 1rem 0;
+      transition: background 0.3s ease;
+    }
+    .cta-button:hover { background: #16a34a; }
+    .countdown { font-size: 1.1rem; color: #facc15; margin-bottom: 2rem; }
+    .footer { font-size: 0.8rem; color: #94a3b8; margin-top: 2rem; }
+  </style>
+  
+  <!-- Facebook Pixel Base Code -->
+  <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    
+    fbq('init', '589067860260175');
+    fbq('track', 'PageView');
+  </script>
+  <noscript>
+    <img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=589067860260175&ev=PageView&noscript=1"/>
+  </noscript>
+</head>
+
+<body>
+  <div class="container">
+    <div class="hero">
+      <h1>Earn Daily with Quotex!</h1>
+      <p>Join our exclusive Telegram channel and get access to real-time tips, expert signals and more!</p>
+      <button class="cta-button" id="joinTelegram">Join Telegram Now</button>
+      <p class="countdown">Limited Access - Offer Expires Soon ⏳</p>
+    </div>
+
+    <div class="features">
+      <p>✅ Trusted by 1M+ Traders</p>
+      <p>✅ 90% Accuracy on Signals</p>
+      <p>✅ Easy Withdrawals</p>
+      <p>✅ Dedicated Support</p>
+    </div>
+
+    <div class="footer">
+      &copy; 2025 Quotex Trading | Powered by AdsNiche.in
+    </div>
+  </div>
+
+  <!-- Button Click Tracking -->
+  <script>
+    document.getElementById("joinTelegram").addEventListener("click", function() {
+      fbq('track', 'Lead');
+      window.location.href = "https://t.me/+t3lU9lYhvvI3Y2Q1";
+    });
+  </script>
+</body>
+</html>
+
